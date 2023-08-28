@@ -15,7 +15,7 @@ const Said = () => {
     <section className="bg-light">
     <div className="container py-5">
       <h3 class="wz-aftr-b4 centered-aftr mt-3 mb-4 font-weight-bold text-center aos-init aos-animate" data-aos="fade-down">
-        مشاريع حفاظ
+        قالوا عنا
       </h3>
       <Swiper
         data-aos="fade-up"
@@ -67,34 +67,31 @@ const Said = () => {
               </div>
             </div>
           </div>
-          {/* <div className="row justify-content-center">
-            <div className="col-lg-3">
-              <div className="tes-img-inner">
-                <Image
-                  src="/dr.jpg"
-                  width={200}
-                  height={200}
-                  alt=""
-                />
-              </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper_Said">
+          <div class="tes-item item">
+            <div class="tes-img">
+                <div class="tes-img-inner">
+                    <Image src="/dr.jpg" width={100} height={100} alt=""/>
+                </div>
             </div>
-            <div className="col-lg-6">
+            <div class="tes-col">
               <div class="tes-dets">
-                <h5>هنيئا لكم ...</h5>
-                <p>
-                    لا شك أن عملا بهذا الحجم وسعة النشاط يشرف من يسانده ماديا ومعنويا، فشرفه من شرف موضوعه وهو القرآن الكريم، فهنيئا لمن كانت له يد في خدمة كتاب الله تعالى.
-                </p>
+                  <h5>هنيئا لكم ...</h5>
+                  <p>
+                      لا شك أن عملا بهذا الحجم وسعة النشاط يشرف من يسانده ماديا ومعنويا، فشرفه من شرف موضوعه وهو القرآن الكريم، فهنيئا لمن كانت له يد في خدمة كتاب الله تعالى.
+                  </p>
+              </div>
+              <div class="tes-footer">
+                  <h4>
+                      أ. د. عجيل جاسم النشمي
+                  </h4>
+                  <p>
+                      عميد كلية الشريعة - الكويت - سابقا
+                  </p>
               </div>
             </div>
-            <div class="tes-footer">
-              <h4>
-                أ. د. عجيل جاسم النشمي
-              </h4>
-              <p>
-                عميد كلية الشريعة - الكويت - سابقا
-              </p>
-            </div>
-          </div> */}
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
