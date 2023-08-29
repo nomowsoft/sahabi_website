@@ -11,7 +11,6 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 const Said = ({ said_about_us }) => {
-  console.log(said_about_us)
   return (
     <section className="bg-light">
     <div className="container py-5">
