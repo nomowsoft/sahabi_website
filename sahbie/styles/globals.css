@@ -346,6 +346,12 @@ header{
   object-position: bottom;
 }
 
+@media (max-width: 767.98px){
+  .site-img img {
+      height: 60vh;
+  }
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
