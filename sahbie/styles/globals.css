@@ -534,6 +534,10 @@ img {
 }
 
 /* video */
+#vids-blk p {
+  text-align: center !important;
+}
+
 
 .main-color {
   color: #145655 !important;
@@ -636,6 +640,14 @@ svg:not(:root).svg-inline--fa {
 
 .swiper_commission {
   margin-bottom: 5rem;
+}
+
+.name{
+  font-weight: 700 !important;
+}
+
+.description{
+  color: #145655 !important;
 }
 
 /* footer */
