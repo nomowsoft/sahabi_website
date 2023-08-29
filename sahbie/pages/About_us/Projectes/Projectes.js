@@ -10,11 +10,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-const Projectes = () => {
+const Projectes = ({ projects }) => {
   return (
     <section className="bg-light">
       <div className="container py-5">
-        <h3 class="wz-aftr-b4 centered-aftr mt-3 mb-4 font-weight-bold text-center aos-init aos-animate" data-aos="fade-down">
+        <h3 className="wz-aftr-b4 centered-aftr mt-3 mb-4 font-weight-bold text-center aos-init aos-animate" data-aos="fade-down">
           مشاريع حفاظ
         </h3>
         <Swiper
@@ -43,182 +43,21 @@ const Projectes = () => {
           // navigation
           pagination={{ clickable: true }}
         >
-          <SwiperSlide className="swiper">
-            <Image
-              src="/somal.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/somal.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/somal.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/somal.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/somal.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/somal.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/somal.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/somal.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/somal.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/child.jpg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/shak.jpg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/ayn.jpeg"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/hearing.png"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/hearing.png"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/hearing.png"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
-          <SwiperSlide className="swiper">
-            <Image
-              src="/hearing.png"
-              width={150}
-              height={150}
-              alt=""
-            />
-            <h6 class="font-weight-bold">
-              كلية علوم القرآن – جامعة الشيخ عبد الرحمن عبدالخالق - غينيا
-            </h6>
-          </SwiperSlide>
+          <div>
+            {projects?.map((project) => ( 
+              <SwiperSlide key={project.id} className="swiper">
+                <img
+                  src={project.image}
+                  width={150}
+                  height={150}
+                  alt=""
+                />
+                <h6 className="font-weight-bold">
+                  {project.name}
+                </h6>
+              </SwiperSlide>
+            ))}
+          </div>
         </Swiper>
       </div>
     </section>
