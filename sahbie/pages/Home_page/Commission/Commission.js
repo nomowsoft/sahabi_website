@@ -59,9 +59,10 @@ const Commission = () => {
                   />
                 </div>
                 <div className="mt-4">
-                  <h5>
-                    الشيخ/ حاتم أحمد محفوض
+                  <h5 className="name">
+                    الشيخ/ قيس خلف عبدالله الرفاعي
                   </h5>
+                  <h5 className="description">رئيس اللجنة الشرعية</h5>
                 </div>
               </div>
             </SwiperSlide>
@@ -77,9 +78,10 @@ const Commission = () => {
                   />
                 </div>
                 <div className="mt-4">
-                  <h5>
+                  <h5 className="name">
                     الشيخ/ حاتم أحمد محفوض
                   </h5>
+                  <h5 className="description">المستشار الفني</h5>
                 </div>
               </div>
             </SwiperSlide>
@@ -95,9 +97,8 @@ const Commission = () => {
                   />
                 </div>
                 <div className="mt-4">
-                  <h5>
-                    الشيخ/ حاتم أحمد محفوض
-                  </h5>
+                  <h5 className="name">الشيخ / علي فالح نصار</h5>
+                  <h5 className="description">عضو</h5>
                 </div>
               </div>
             </SwiperSlide>
@@ -113,9 +114,10 @@ const Commission = () => {
                   />
                 </div>
                 <div className="mt-4">
-                  <h5>
-                    الشيخ/ حاتم أحمد محفوض
+                  <h5 className="name">
+                    الشيخ/ محمد صالح معيان
                   </h5>
+                  <h5 className="description">عضو</h5>
                 </div>
               </div>
             </SwiperSlide>
