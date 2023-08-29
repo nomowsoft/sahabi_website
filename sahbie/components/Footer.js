@@ -36,10 +36,10 @@ const Footer = () => {
                       </div>
 
                       <div className="footer-list mb-5">
-                          <Link className="mx-2" href="https://sahibi.app">الرئيسية</Link>
-                          <Link className="mx-2" href="https://sahibi.app/about-us">نبذة عنا</Link>
-                          <Link className="mx-2" href="https://sahibi.app/contact">اتصل بنا</Link>
-                          <Link className="mx-2" href="https://sahibi.app/privacy">سياسة الخصوصية</Link>
+                          <Link className="mx-2" href="/">الرئيسية</Link>
+                          <Link className="mx-2" href="/aboutus">نبذة عنا</Link>
+                          <Link className="mx-2" href="#">اتصل بنا</Link>
+                          <Link className="mx-2" href="#">سياسة الخصوصية</Link>
                       </div>
                   </div>
               </div>
@@ -76,7 +76,7 @@ const Footer = () => {
               <div className="col-lg-6">
               موقع و تطبيق صاحبي، تصميم و برمجة شركة 
                 <Link 
-                  href="https://roqay.com" 
+                  href="https://www.nomowsoft.com" 
                   target="_blank" 
                   className="text-secondary px-2"
                 >
