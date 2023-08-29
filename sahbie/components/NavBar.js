@@ -45,13 +45,13 @@ const NavBar = () => {
             <div className={show ? 'collapse navbar-collapse show' : 'collapse navbar-collapse'}  id="navbarSupportedContent">
                 <ul className="navbar-nav mb-2">
                     <li className={`${router.pathname === "/" ? "nav-item active" : "nav-item"}`}>
-                        <a className="nav-link" href="/">الرئيسية</a>
+                        <Link className="nav-link" href="/">الرئيسية</Link>
                     </li>
                     <li className={`${router.pathname === "/aboutus" ? "nav-item active" : "nav-item"}`}>
-                        <a className="nav-link" href="/aboutus">نبذة عنا</a>
+                        <Link className="nav-link" href="/aboutus">نبذة عنا</Link>
                     </li>
                     <li className="nav-item ">
-                        <a className="nav-link" href="#">اتصل بنا</a>
+                        <Link className="nav-link" href="#">اتصل بنا</Link>
                     </li>
 
                 </ul>

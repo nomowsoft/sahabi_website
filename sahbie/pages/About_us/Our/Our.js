@@ -1,34 +1,33 @@
 import React from 'react'
 
-const Our = () => {
+const Our = ({ about_us }) => {
   return (
-    <section id="about-us" class="my-5">
-      <div class="container">
-        <h5 class="font-weight-bold aos-init aos-animate" data-aos="fade-down">رؤيتنا</h5>
-        <p data-aos="fade-zoom-in" class="aos-init aos-animate">أن تكون الجمعية مرجعية في تحفيظ وتعليم وخدمة القرآن الكريم وعلومه محلياً وعالمياً</p>
-        <h5 class="font-weight-bold aos-init aos-animate" data-aos="fade-down">رسالتنا</h5>
-        <p data-aos="fade-zoom-in" class="aos-init aos-animate"></p>
-        <p>جمعية خيرية كويتية تقوم بتنفيذ مشاريع خيرية وإغاثية وتعليمية لخدمة القرآن وأمته انطلاقا من إيمانها الراسخ والكامل أن خدمة الإنسان وتوفير الحياة الكريمة له تساعده على حفظ القرآن وتعلمه وتعزيز أثره في حياته منهجا وسلوكا وتلك رسالة القرآن سواء داخل الكويت أو خارجها وذلك بالتعاون مع جميع الشركاء محليا وعالميا، وذلك من خلال اعتماد أساليب أحدث الطرق والأساليب في إدارة المشاريع الخيرية والإغاثية والتعليمية وبناء على طرق التحسين المستمر والتطوير والتدريب لكافة الموظفين بالجمعية والشركاء المحليين والدوليين إدارياً وفنياً.</p>
-        &#x202C;
-        <p></p>
+    <section id="about-us" className="my-5">
+      <div className="container">
+        {about_us?.map((about) => (
+          <div key={about.id}>
+            <h5 className="font-weight-bold aos-init aos-animate" data-aos="fade-down">رؤيتنا</h5>
+            <p data-aos="fade-zoom-in" className="aos-init aos-animate">{about.our_vision}</p>
+            <h5 className="font-weight-bold aos-init aos-animate" data-aos="fade-down">رسالتنا</h5>
+            <p data-aos="fade-zoom-in" className="aos-init aos-animate">{about.our_message}</p>
+            <p></p>
+            &#x202C;
+            <p></p>
 
-        <h5 class="font-weight-bold aos-init aos-animate" data-aos="fade-down">&#x202B;&#x202A;&#x202B;أهـدافـنـا&#x202C;</h5>
-        <div class="row">
-            <div class="col-md-6">
-                <h6 class="font-weight-bold aos-init" data-aos="fade-in">علي المستوي المحلي</h6>
-                <p data-aos="fade-zoom-in" class="aos-init"></p>
-                <p>بناء حلقات تحفيظ القرآن الكريم النموذجية - تطوير قدرات المعلم المتميز لتحفيظ وتعليم وتلاوة القرآن الكريم - كفالة ورعاية الطالب الحافظ وأسرته والمعلم للقرآن، وتقديم الدعم الخيري المادي والعيني لهم - استخدام التقنيات الحديثة في تعليم وتحفيظ القرآن الكريم بأسلوب جديد ومختلف - إنشاء مركز أبحاث لخدمة القرآن الكريم وعلومه - طباعة المصحف بأرقى طباعة وبمواصفات عالية تليق بكتاب الله - تنفيذ مشاريع وأنشطة وفعاليات خيرية للصالح العام، وتبرز الجانب الخيري الذي تتميز به كويتنا العزيزة - دعم المؤسسات القرآنية وتطوير عملها.</p>
-                &#x202C;
-                <p></p>
+            <h5 className="font-weight-bold aos-init aos-animate" data-aos="fade-down">&#x202B;&#x202A;&#x202B;أهـدافـنـا&#x202C;</h5>
+            <div className="row">
+                {about.our_goals_ids?.map((goal) => (
+                  <div key={goal.id} className="col-md-6">
+                      <h6 className="font-weight-bold aos-init" data-aos="fade-in">{goal.name}</h6>
+                      <p data-aos="fade-zoom-in" className="aos-init"></p>
+                      <p>{goal.content}</p>
+                      &#x202C;
+                      <p></p>
+                  </div>
+                ))} 
             </div>
-            <div class="col-md-6">
-                <h6 class="font-weight-bold aos-init" data-aos="fade-in">علي المستوي العالمي</h6>
-                <p data-aos="fade-zoom-in" class="aos-init"></p>
-                <p>إبراز دور الكويت في خدمة القرآن الكريم وعلومه في المحافل الدولية - نقل نموذج الحلقة النموذجية لكافة دول العالم - التعاون مع الجهات المحلية والعالمية لإدارة حلقات تحفيظ القرآن الكريم - إطلاق مسابقة دولية للحلقات وجمعيات تحفيظ القرآن الكريم - العمل على إعلان الاتحاد العالمي لحلقات تحفيظ القرآن الكريم - تأسيس مراكز تحفيظ القرآن الكريم خارج الكويت ورعايتها والإنفاق الخيري عليها - نشر مناهج تدبر القرآن الكريم بين المجتمع الكويتي والعربي وغير العربي المسلم - الاهتمام بالقراءات العشر ونشرها في العالم - إبراز الدور العالمي الذي تمثله دولة الكويت في الجانب الإنساني والخيري، من خلال تنفيذ مشاريع خيرية خارج البلاد.</p>
-                &#x202C;
-                <p></p>
-            </div>
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   )

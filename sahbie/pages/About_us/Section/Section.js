@@ -4,7 +4,7 @@ const Section = () => {
   return (
     <div>
       <div id="pg-tit">
-        <div class="container">
+        <div className="container">
           <h1>نبذة عنا</h1>
           <p>الجمعية الخيرية الكويتية (حفاظ) لخدمة القــرآن الكريم وعلومــــه</p>
         </div>
