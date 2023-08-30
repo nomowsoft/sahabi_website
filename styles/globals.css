@@ -328,7 +328,7 @@ header{
   background: #145655 no-repeat;
   background-position: bottom 10px left 10px, top right;
   background-size: auto 20%, auto 100%;
-  background-image: url(/infinwhite.png), url(/bgvectors.png);
+  background-image: url(https://nomowsoft.github.io/sahabi_website/infinwhite.png), url(https://nomowsoft.github.io/sahabi_website/bgvectors.png);
   border-radius: 50px;
   -webkit-border-radius: 50px;
   position: relative;
@@ -427,7 +427,7 @@ h6{
 /* defind */
 
 .hadiths-sunan {
-  background: #f7faf9 url(/infin.png) bottom 30px left 20px/auto 200px no-repeat;
+  background: #f7faf9 url(https://nomowsoft.github.io/sahabi_website/infin.png) bottom 30px left 20px/auto 200px no-repeat;
 }
 
 .rounded-img img {
@@ -624,7 +624,7 @@ svg:not(:root).svg-inline--fa {
 /* Favor */
 
 #pdf-blk {
-  background: url(/quran-lantern-and-water.jpg) no-repeat #dbdde2;
+  background: url(https://nomowsoft.github.io/sahabi_website/quran-lantern-and-water.jpg) no-repeat #dbdde2;
   background-size: auto 100%;
   padding: 5rem 0;
 }
@@ -664,7 +664,7 @@ footer {
   background-color: #145655 !important;
   padding: 0;
   margin-top: 20%;
-  background: url(/infinwhite.png) center/85% auto no-repeat;
+  background: url(https://nomowsoft.github.io/sahabi_website/infinwhite.png) center/85% auto no-repeat;
 }
 
 .btn-secondary {

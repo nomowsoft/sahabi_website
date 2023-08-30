@@ -50,11 +50,11 @@ const Commission = () => {
             <SwiperSlide className="swiper_commission">
               <div>
                 <div>
-                  <Image 
+                  <img 
                     className="border border-5 rounded-pill" 
                     width={180} 
                     height={180} 
-                    src="/blank-profile-picture.jpg" 
+                    src="https://nomowsoft.github.io/sahabi_website/blank-profile-picture.jpg" 
                     alt="..."
                   />
                 </div>
@@ -69,11 +69,11 @@ const Commission = () => {
             <SwiperSlide className="swiper_commission">
               <div>
                 <div>
-                  <Image 
+                  <img 
                     className="border border-5 rounded-pill" 
                     width={180} 
                     height={180} 
-                    src="/blank-profile-picture.jpg" 
+                    src="https://nomowsoft.github.io/sahabi_website/blank-profile-picture.jpg" 
                     alt="..."
                   />
                 </div>
@@ -88,11 +88,11 @@ const Commission = () => {
             <SwiperSlide className="swiper_commission">
               <div>
                 <div>
-                  <Image 
+                  <img 
                     className="border border-5 rounded-pill" 
                     width={180} 
                     height={180} 
-                    src="/blank-profile-picture.jpg" 
+                    src="https://nomowsoft.github.io/sahabi_website/blank-profile-picture.jpg" 
                     alt="..."
                   />
                 </div>
@@ -105,11 +105,11 @@ const Commission = () => {
             <SwiperSlide className="swiper_commission">
               <div>
                 <div>
-                  <Image 
+                  <img 
                     className="border border-5 rounded-pill" 
                     width={180} 
                     height={180} 
-                    src="/blank-profile-picture.jpg" 
+                    src="https://nomowsoft.github.io/sahabi_website/blank-profile-picture.jpg" 
                     alt="..."
                   />
                 </div>
