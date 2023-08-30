@@ -25,7 +25,7 @@ const Identity = () => {
           </div>
           <div className="col-lg-6 col-md-5">
             <div className="site-img aos-init aos-animate" data-aos="zoom-in">
-              <img src="/flyingPh.png" alt="flyingPh"/>
+              <img src="https://nomowsoft.github.io/sahabi_website/flyingPh.png" alt="flyingPh"/>
             </div>
           </div>
         </div>

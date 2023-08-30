@@ -8,7 +8,7 @@ const Defind = () => {
         <div className="row">
             <div className="col-lg-5">
               <div className="sec-img rounded-img mb-3 aos-init aos-animate" data-aos="zoom-in">
-                <img src="/1.png" data-src="/1.png" className="ls-is-cached lazyloaded" alt="..."/>
+                <img src="https://nomowsoft.github.io/sahabi_website/1.png" data-src="https://nomowsoft.github.io/sahabi_website/1.png" className="ls-is-cached lazyloaded" alt="..."/>
               </div>
             </div>
             <div className="col-lg-7">

@@ -27,7 +27,7 @@ const NavBar = () => {
         <div className="container">
             <div>
                 <Link className="navbar-brand" href="https://sahibi.app">
-                    <Image data-src="/saheby-logo.png" src="/saheby-logo.png" width={50} height={50} className="logo ls-is-cached lazyloaded" alt=""/>
+                    <img data-src="https://nomowsoft.github.io/sahabi_website/saheby-logo.png" src="https://nomowsoft.github.io/sahabi_website/saheby-logo.png" width={50} height={50} className="logo ls-is-cached lazyloaded" alt=""/>
                 </Link>
             </div>
             <button 

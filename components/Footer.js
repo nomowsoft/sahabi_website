@@ -8,8 +8,8 @@ const Footer = () => {
           <div className="row">
               <div className="col-lg-4">
                   <img 
-                    data-src="/saheby-logo.png" 
-                    src="/saheby-logo.png" 
+                    data-src="https://nomowsoft.github.io/sahabi_website/saheby-logo.png" 
+                    src="https://nomowsoft.github.io/sahabi_website/saheby-logo.png" 
                     className="logo d-block pt-5 ls-is-cached lazyloaded" 
                     width="280" 
                     alt=""
@@ -44,7 +44,7 @@ const Footer = () => {
                   </div>
               </div>
               <div className="col-lg-4">
-                  <img src="/chart.png" className="logo pt-5 ls-is-cached lazyloaded"/>
+                  <img src="https://nomowsoft.github.io/sahabi_website/chart.png" className="logo pt-5 ls-is-cached lazyloaded"/>
               </div>
           </div>
       </div>
