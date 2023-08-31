@@ -53,8 +53,9 @@ const Footer = () => {
             <div className="row justify-content-center">
               <div className="col-lg-3">
                 <span className="span-email">
+                  info@7ofaath.com
                   <svg 
-                    className="svg-inline--fa fa-mail-bulk fa-w-18" 
+                    className="svg-inline--fa fa-mail-bulk fa-w-18 mx-2" 
                     aria-hidden="true" 
                     focusable="false" 
                     data-prefix="fas" 
@@ -70,7 +71,6 @@ const Footer = () => {
                     >
                     </path>
                   </svg>
-                  info@7ofaath.com
                 </span>
               </div>
               <div className="col-lg-6">
@@ -85,8 +85,9 @@ const Footer = () => {
               </div>
               <div className="col-lg-3">
                 <span className="span-phone">
+                  96565524409+
                   <svg 
-                    className="svg-inline--fa fa-phone fa-w-16" 
+                    className="svg-inline--fa fa-phone fa-w-16 mx-2" 
                     aria-hidden="true" 
                     focusable="false" 
                     data-prefix="fas" 
@@ -102,7 +103,6 @@ const Footer = () => {
                     >
                       </path>
                   </svg>
-                  96565524409+
                 </span>
               </div>
             </div>
