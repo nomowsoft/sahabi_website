@@ -33,7 +33,7 @@ const Guide = () => {
                 دليل المستخدم للتطبيق
               </p>
               <div className="vid-wrapper aos-init aos-animate" data-aos="zoom-in">
-                <video controls ref={videoRef} onClick={togglePlay}>
+                <video controls={showImage ? false : true} ref={videoRef} onClick={togglePlay}>
                   <source src="https://sahibi.app/storage/uploads/app-guide-video.mp4" type="video/mp4"/>
                             Sorry, your browser doesn't support embedded videos.
                 </video>
