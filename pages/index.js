@@ -13,14 +13,19 @@ export const getStaticProps = async () => {
   const data_statistics = await res_statistics.json();
   return {
     props: {
-      statistics: data_statistics.data[0],
+      khatamati_audible_count: data_statistics.data[0].khatamati_audible_count,
+      total_read_khatamati: data_statistics.data[0].total_read_khatamati,
+      user_ids_count: data_statistics.data[0].user_ids_count,
+      number_downloads: data_statistics.data[0].number_downloads,
     },
   };
 };
 
 export default function Home({
-  statistics,
-  
+  khatamati_audible_count,
+  total_read_khatamati,
+  user_ids_count,
+  number_downloads,
 }){
   useEffect(() => {
     AOS.init({
@@ -31,7 +36,12 @@ export default function Home({
   return (
     <div>
       <Identity/>
-      <About statistics={statistics}/>
+      <About 
+        khatamati_audible_count={khatamati_audible_count} 
+        total_read_khatamati={total_read_khatamati}
+        user_ids_count={user_ids_count}
+        number_downloads={number_downloads}
+      />
       <Defind/>
       <Guide/>
       <Favor/>
