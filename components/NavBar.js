@@ -26,7 +26,7 @@ const NavBar = () => {
      <nav className={scrolled ? 'navbar navbar-expand-lg main-nav sticky-menu' : 'navbar navbar-expand-lg main-nav'}>
         <div className="container">
             <div>
-                <Link className="navbar-brand" href="https://sahibi.app">
+                <Link className="navbar-brand" href="/">
                     <img data-src="https://nomowsoft.github.io/sahabi_website/saheby-logo.png" src="https://nomowsoft.github.io/sahabi_website/saheby-logo.png" width={50} height={50} className="logo ls-is-cached lazyloaded" alt=""/>
                 </Link>
             </div>
