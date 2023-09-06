@@ -15,8 +15,8 @@ const Defind = () => {
               <div className="sec-descp py-2 px-md-4 px-sm-2 px-1">
                 <h3 className="font-weight-bold m-0 aos-init aos-animate"> من نحن </h3>
                 <h5 className="wz-aftr-b4 mt-3 mb-4 font-weight-bold aos-init aos-animate" data-aos="fade-zoom-in">
-                  نبذة عن
-                  <span className="main-color">القرأن صاحبي</span>
+                  {" نبذه عن "}
+                  <span className="main-color">القرآن صاحبي</span>
                 </h5>
                 <p className="my-3 aos-init aos-animate" data-aos="fade-zoom-in"></p>
                 <p>
