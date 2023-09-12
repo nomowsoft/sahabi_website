@@ -4,7 +4,7 @@ import Projectes from "./About_us/Projectes"
 import Said from "./About_us/Said"
 
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   try {
     const res_about_us = await fetch("https://sahbi.nomowsoft.com/api/get/about_us");
     const data_about_us = await res_about_us.json();
