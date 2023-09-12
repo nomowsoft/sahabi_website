@@ -5,15 +5,19 @@ import Said from "./About_us/Said"
 
 
 export const getStaticProps = async () => {
-  const res_about_us = await fetch("https://sahbi.nomowsoft.com/api/get/about_us");
-  const data_about_us = await res_about_us.json();
-  return {
-    props: {
-      about_us: data_about_us.data[0].about_us,
-      projects: data_about_us.data[0].projects,
-      said_about_us: data_about_us.data[0].said_about_us,
-    },
-  };
+  try {
+    const res_about_us = await fetch("https://sahbi.nomowsoft.com/api/get/about_us");
+    const data_about_us = await res_about_us.json();
+    return {
+      props: {
+        about_us: data_about_us.data[0].about_us,
+        projects: data_about_us.data[0].projects,
+        said_about_us: data_about_us.data[0].said_about_us,
+      },
+    };
+  } catch (error) {
+      console.log("ali")
+  }
 };
 
 export default function aboutus({
