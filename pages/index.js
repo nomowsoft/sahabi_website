@@ -9,16 +9,21 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export const getStaticProps = async () => {
-  const res_statistics = await fetch("https://sahbi.nomowsoft.com/api/get/statistics");
-  const data_statistics = await res_statistics.json();
-  return {
-    props: {
-      khatamati_audible_count: data_statistics.data[0].khatamati_audible_count,
-      total_read_khatamati: data_statistics.data[0].total_read_khatamati,
-      user_ids_count: data_statistics.data[0].user_ids_count,
-      number_downloads: data_statistics.data[0].number_downloads,
-    },
-  };
+  try {
+    const res_statistics = await fetch("https://sahbi.nomowsoft.com/api/get/statistics");
+    const data_statistics = await res_statistics.json();
+    return {
+      props: {
+        khatamati_audible_count: data_statistics.data[0].khatamati_audible_count,
+        total_read_khatamati: data_statistics.data[0].total_read_khatamati,
+        user_ids_count: data_statistics.data[0].user_ids_count,
+        number_downloads: data_statistics.data[0].number_downloads,
+      },
+    };
+    
+  } catch (error) {
+      console.log("ahmed")
+  }
 };
 
 export default function Home({
