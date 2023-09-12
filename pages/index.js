@@ -8,7 +8,7 @@ import { React, useEffect } from "react"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   try {
     const res_statistics = await fetch("https://sahbi.nomowsoft.com/api/get/statistics");
     const data_statistics = await res_statistics.json();
