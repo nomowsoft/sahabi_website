@@ -16,7 +16,11 @@ export const getStaticProps = async () => {
       },
     };
   } catch (error) {
-      console.log("ali")
+      return {
+        props: {
+          error: "did not page"
+        }
+      }
   }
 };
 

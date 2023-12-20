@@ -22,7 +22,11 @@ export const getStaticProps = async () => {
     };
     
   } catch (error) {
-      console.log("ahmed")
+      return {
+        props: {
+          error: "did not page"
+        }
+      }
   }
 };
 
