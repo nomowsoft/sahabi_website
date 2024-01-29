@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.roqay.saheby",
+        "sha256_cert_fingerprints":
+          ["4F:DB:1F:E4:85:2E:4F:C1:FC:DA:A6:70:61:D0:D4:9D:D8:8A:F6:87:3F:0B:A3:CE:0D:04:C8:0F:13:06:21:14"]
+      }
+    }
+]
