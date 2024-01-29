@@ -14,6 +14,15 @@ module.exports = {
             value: 'application/json',
           },
         ],
+      },      
+      {
+        source: '/assetlinks.json',
+        headers: [
+          {
+            key: 'Content-Type',
+            value: 'application/json',
+          },
+        ],
       },
     ];
   },
