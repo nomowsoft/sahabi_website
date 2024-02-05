@@ -34,12 +34,12 @@ const Guide = () => {
               </p>
               <div className="vid-wrapper aos-init aos-animate" data-aos="zoom-in">
                 <video controls={showImage ? false : true} ref={videoRef} onClick={togglePlay}>
-                  <source src="https://sahibi.app/storage/uploads/app-guide-video.mp4" type="video/mp4"/>
+                  <source src="https://nomowsoft.github.io/sahabi_website/vedio_sahipi.mp4" type="video/mp4"/>
                             Sorry, your browser doesn't support embedded videos.
                 </video>
                 {showImage &&
                   <div className="vid-poster" onClick={togglePlay}>
-                    <img src="https://sahibi.app/assets/images/quraan-bg1.jpg" alt="..."/>
+                    <img src="https://nomowsoft.github.io/sahabi_website/image_Quran.jpeg" alt="..."/>
                     <div className="vid-play-ico">
                       <svg 
                         className="svg-inline--fa fa-play-circle fa-w-16" 
