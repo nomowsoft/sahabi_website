@@ -4,11 +4,14 @@ import Defind from "./Home_page/Defind"
 import Guide from "./Home_page/Guide"
 import Favor from "./Home_page/Favor"
 import Commission from "./Home_page/Commission"
+import Groupid from "./Groupid"
 import { React, useEffect } from "react"
+import { useRouter } from 'next/router';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 export const getStaticProps = async () => {
+
   try {
     const res_statistics = await fetch("https://sahbi.nomowsoft.com/api/get/statistics");
     const data_statistics = await res_statistics.json();
@@ -36,12 +39,17 @@ export default function Home({
   user_ids_count,
   number_downloads,
 }){
+  const router = useRouter();
+  const { groupid } = router.query;
   useEffect(() => {
     AOS.init({
          duration: 800,
          once: false,
        })
   }, [])
+  if (groupid){
+    return <Groupid/>
+  }
   return (
     <div>
       <Identity/>
@@ -57,4 +65,5 @@ export default function Home({
       <Commission/>
     </div>
   );
+  
 }
