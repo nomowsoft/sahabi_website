@@ -47,23 +47,25 @@ export default function Home({
          once: false,
        })
   }, [])
-  if (groupid){
-    return <Groupid/>
+  if (typeof groupid !== "undefined") {
+    return <Groupid />;
   }
-  return (
-    <div>
-      <Identity/>
-      <About 
-        khatamati_audible_count={khatamati_audible_count} 
-        total_read_khatamati={total_read_khatamati}
-        user_ids_count={user_ids_count}
-        number_downloads={number_downloads}
-      />
-      <Defind/>
-      <Guide/>
-      <Favor/>
-      <Commission/>
-    </div>
-  );
+  if (router.isReady && !groupid) {
+    return (
+      <div>
+        <Identity/>
+        <About 
+          khatamati_audible_count={khatamati_audible_count} 
+          total_read_khatamati={total_read_khatamati}
+          user_ids_count={user_ids_count}
+          number_downloads={number_downloads}
+        />
+        <Defind/>
+        <Guide/>
+        <Favor/>
+        <Commission/>
+      </div>
+    );
+  }
   
 }
