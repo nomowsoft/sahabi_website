@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const groupid = () => {
+const redirect = () => {
   return (
     <div className="container my-4">
       <header>
@@ -58,4 +58,4 @@ const groupid = () => {
   );
 };
 
-export default groupid;
+export default redirect;
