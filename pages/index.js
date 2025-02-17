@@ -4,7 +4,6 @@ import Defind from "./Home_page/Defind"
 import Guide from "./Home_page/Guide"
 import Favor from "./Home_page/Favor"
 import Commission from "./Home_page/Commission"
-import Groupid from "./Groupid"
 import { React, useEffect } from "react"
 import { useRouter } from 'next/router';
 import AOS from "aos";
@@ -40,17 +39,12 @@ export default function Home({
   number_downloads,
 }){
   const router = useRouter();
-  const { groupid } = router.query;
   useEffect(() => {
     AOS.init({
          duration: 800,
          once: false,
        })
   }, [])
-  if (typeof groupid !== "undefined") {
-    return <Groupid />;
-  }
-  if (router.isReady && !groupid) {
     return (
       <div>
         <Identity/>
@@ -65,7 +59,5 @@ export default function Home({
         <Favor/>
         <Commission/>
       </div>
-    );
-  }
-  
+    );  
 }
